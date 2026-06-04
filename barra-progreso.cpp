@@ -18,7 +18,7 @@ void spinner(int duracion_ms) {
         this_thread::sleep_for(chrono::milliseconds(100));
     }
 
-    cout << "\rProcesando... listo ✅" << endl;
+    cout << "\rProcesando... listo" << endl;
 }
 
 int main() {
